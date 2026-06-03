@@ -50,3 +50,40 @@ counters.forEach(counter => {
     updateCounter();
 
 });
+const dashboardCounters = document.querySelectorAll(".stat-card h2[data-target]");
+
+dashboardCounters.forEach(counter => {
+
+    const target = Number(counter.dataset.target);
+
+    let count = 0;
+
+    const updateCounter = () => {
+
+        count += target / 50;
+
+        if(count < target){
+
+            counter.innerText = Math.floor(count);
+
+            requestAnimationFrame(updateCounter);
+
+        } else {
+
+            if(target === 500){
+                counter.innerText = "500K+";
+            }
+            else if(target === 120){
+                counter.innerText = "120+";
+            }
+            else if(target === 98){
+                counter.innerText = "98%";
+            }
+
+        }
+
+    };
+
+    updateCounter();
+
+});

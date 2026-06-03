@@ -160,20 +160,38 @@ color:#64748b;
 }
 
 .explore{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
 text-align:center;
 padding:80px 20px;
+
+}
+
+.explore h2{
+
+margin-bottom:20px;
+
 }
 
 .explore p{
+
 color:#64748b;
+max-width:700px;
+margin:0 auto 30px auto;
+
 }
 
 .explore-buttons{
+
 display:flex;
 justify-content:center;
+align-items:center;
 gap:20px;
 flex-wrap:wrap;
-margin-top:20px;
+
 }
 
 .trends{

@@ -416,12 +416,14 @@ footer p{
 .daily-tech h2{
     color:#1e3a8a;
     margin-bottom:20px;
+    align-items:center;
 }
 
 .daily-tech p{
     max-width:800px;
     margin:auto;
     font-size:1.1rem;
+    align-items:center;
 }
 
     #tech-fact{

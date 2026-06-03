@@ -276,3 +276,11 @@ font-size:1rem;
 textarea{
 height:150px;
 }
+
+.page-header{
+
+    height:auto;
+
+    padding:80px 20px;
+
+}

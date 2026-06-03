@@ -100,41 +100,31 @@ if(form){
     });
 
 }
+const newsElement = document.getElementById("tech-fact");
+
+if(newsElement){
+
 fetch("https://hacker-news.firebaseio.com/v0/topstories.json")
 
 .then(response => response.json())
 
-.then(stories => {
-
-    return fetch(
-        `https://hacker-news.firebaseio.com/v0/item/${stories[0]}.json`
-    );
-
-})
+.then(ids => fetch(
+`https://hacker-news.firebaseio.com/v0/item/${ids[0]}.json`
+))
 
 .then(response => response.json())
 
-.then(data => {
+.then(article => {
 
-    const factElement = document.getElementById("tech-fact");
-
-    if(factElement){
-
-        factElement.innerText = data.title;
-
-    }
+    newsElement.innerText = article.title;
 
 })
 
 .catch(() => {
 
-    const factElement = document.getElementById("tech-fact");
-
-    if(factElement){
-
-        factElement.innerText =
-        "Notizia non disponibile al momento.";
-
-    }
+    newsElement.innerText =
+    "Impossibile caricare la notizia del giorno.";
 
 });
+
+}

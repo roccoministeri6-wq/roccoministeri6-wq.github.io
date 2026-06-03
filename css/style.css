@@ -286,7 +286,7 @@ height:150px;
 }
 .trends-header{
     text-align:center;
-    padding:40px 20px;
+    padding:40px 20px 20px;
     background:#f5f7fa;
 }
 
@@ -430,7 +430,7 @@ footer p{
 
 .about-image{
     text-align:center;
-    padding:40px 20px;
+    padding:20px 20px 40px;
 }
 
 .about-image img{

@@ -122,3 +122,50 @@ fetch("https://uselessfacts.jsph.pl/api/v2/facts/random?language=en")
 });
 
 }
+const chartCanvas = document.getElementById("trendChart");
+
+if(chartCanvas){
+
+new Chart(chartCanvas, {
+
+    type: "bar",
+
+    data: {
+
+        labels: [
+            "AI",
+            "Cybersecurity",
+            "Cloud",
+            "Social Media"
+        ],
+
+        datasets: [{
+
+            label: "Interesse (%)",
+
+            data: [95, 80, 75, 85],
+
+            borderWidth: 1
+
+        }]
+
+    },
+
+    options: {
+
+        responsive: true,
+
+        scales: {
+
+            y: {
+                beginAtZero: true,
+                max: 100
+            }
+
+        }
+
+    }
+
+});
+
+}

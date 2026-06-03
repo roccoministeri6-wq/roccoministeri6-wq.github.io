@@ -367,3 +367,43 @@ footer p{
     color:#1e3a8a;
     margin-bottom:10px;
 }
+
+@media (max-width: 768px){
+
+    h1{
+        font-size:3rem;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+        padding:20px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .stats,
+    .dashboard,
+    .trends,
+    .tech-container,
+    .benefits-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card,
+    .tech-card,
+    .stat-card,
+    .benefit-card{
+        width:90%;
+        max-width:350px;
+    }
+
+    form{
+        width:90%;
+    }
+
+}

@@ -100,3 +100,31 @@ if(form){
     });
 
 }
+fetch("https://uselessfacts.jsph.pl/api/v2/facts/random?language=en")
+
+.then(response => response.json())
+
+.then(data => {
+
+    const factElement = document.getElementById("tech-fact");
+
+    if(factElement){
+
+        factElement.innerText = data.text;
+
+    }
+
+})
+
+.catch(() => {
+
+    const factElement = document.getElementById("tech-fact");
+
+    if(factElement){
+
+        factElement.innerText =
+        "Curiosità non disponibile al momento.";
+
+    }
+
+});

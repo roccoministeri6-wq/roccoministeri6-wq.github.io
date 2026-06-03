@@ -303,3 +303,25 @@ height:150px;
     color:#475569;
 
 }
+
+footer{
+
+    background:#0a2540;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:50px;
+
+}
+
+footer p{
+
+    color:white;
+
+    margin:0;
+
+}

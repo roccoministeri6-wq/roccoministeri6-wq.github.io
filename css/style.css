@@ -278,3 +278,28 @@ font-size:1rem;
 textarea{
 height:150px;
 }
+.trends-header{
+
+    text-align:center;
+
+    padding:100px 20px;
+
+    background:#f5f7fa;
+
+}
+
+.trends-header h1{
+
+    color:#1e3a8a;
+
+    font-size:3.5rem;
+
+    margin-bottom:20px;
+
+}
+
+.trends-header p{
+
+    color:#475569;
+
+}

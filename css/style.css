@@ -423,4 +423,9 @@ footer p{
     margin:auto;
     font-size:1.1rem;
 }
+
+    #tech-fact{
+    max-width:700px;
+    margin-top:15px;
+    text-align:center;
 }

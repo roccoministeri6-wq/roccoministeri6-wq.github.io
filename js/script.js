@@ -58,32 +58,30 @@ dashboardCounters.forEach(counter => {
 
     let count = 0;
 
-    const updateCounter = () => {
+    const interval = setInterval(() => {
 
-        count += target / 50;
+        count++;
 
-        if(count < target){
+        counter.innerText = count;
 
-            counter.innerText = Math.floor(count);
+        if(count >= target){
 
-            requestAnimationFrame(updateCounter);
-
-        } else {
+            clearInterval(interval);
 
             if(target === 500){
                 counter.innerText = "500K+";
             }
-            else if(target === 120){
+
+            if(target === 120){
                 counter.innerText = "120+";
             }
-            else if(target === 98){
+
+            if(target === 98){
                 counter.innerText = "98%";
             }
 
         }
 
-    };
-
-    updateCounter();
+    }, 10);
 
 });

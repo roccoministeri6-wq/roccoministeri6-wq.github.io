@@ -405,5 +405,19 @@ footer p{
     form{
         width:90%;
     }
+.daily-tech{
+    text-align:center;
+    padding:80px 20px;
+}
 
+.daily-tech h2{
+    color:#1e3a8a;
+    margin-bottom:20px;
+}
+
+.daily-tech p{
+    max-width:800px;
+    margin:auto;
+    font-size:1.1rem;
+}
 }

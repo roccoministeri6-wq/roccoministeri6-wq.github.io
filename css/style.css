@@ -34,12 +34,14 @@ font-weight:700;
 }
 
 p{
-font-size:1.25rem;
+font-size:1.1rem;
 line-height:1.8;
 max-width:800px;
+color:#475569;
+}
+header p{
 color:#dbeafe;
 }
-
 button{
 margin-top:30px;
 padding:16px 40px;

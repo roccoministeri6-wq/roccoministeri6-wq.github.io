@@ -442,28 +442,17 @@ footer p{
     box-shadow:0 8px 24px rgba(15,23,42,0.08);
 }
 .dashboard-chart{
-
     width:90%;
-    max-width:900px;
-
+    max-width:1000px;
     margin:60px auto;
-
     background:white;
-
-    padding:30px;
-
+    padding:40px;
     border-radius:20px;
-
     box-shadow:0 8px 24px rgba(15,23,42,0.08);
-
     text-align:center;
-
 }
-
 .dashboard-chart h2{
-
     color:#1e3a8a;
-
     margin-bottom:20px;
-
+    text-align:center;
 }

@@ -405,6 +405,7 @@ footer p{
     form{
         width:90%;
     }
+
 }
 .daily-tech{
     display:flex;
@@ -417,38 +418,28 @@ footer p{
 .daily-tech h2{
     color:#1e3a8a;
     margin-bottom:20px;
-    align-items:center;
 }
 
 .daily-tech p{
     max-width:800px;
     margin:auto;
     font-size:1.1rem;
-    align-items:center;
 }
 
-    #tech-fact{
+#tech-fact{
     max-width:700px;
     margin-top:15px;
     text-align:center;
 }
 
-    .about-image{
-
+.about-image{
     text-align:center;
-
     padding:40px 20px;
-
 }
 
 .about-image img{
-
     width:90%;
-
     max-width:1000px;
-
     border-radius:20px;
-
     box-shadow:0 8px 24px rgba(15,23,42,0.08);
-
 }

@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
 margin:0;
 font-family: Arial, sans-serif;
@@ -140,7 +146,7 @@ margin-top:30px;
 
 .tech-card{
 background:white;
-width:280px;
+width:250px;
 padding:25px;
 border-radius:18px;
 box-shadow:0 8px 24px rgba(15,23,42,0.08);
@@ -204,7 +210,7 @@ padding:60px;
 
 .card{
 background:white;
-width:300px;
+width:280px;
 padding:25px;
 border-radius:18px;
 box-shadow:0 8px 24px rgba(15,23,42,0.08);

@@ -281,14 +281,20 @@ height:150px;
 
 .page-header{
 
-    height:auto !important;
+    height:auto;
 
-    min-height:0 !important;
+    padding:80px 20px;
 
-    display:block !important;
+    text-align:center;
 
-    padding:80px 20px !important;
+    background:#f5f7fa;
 
-    background:#f5f7fa !important;
+}
 
+.page-header h1{
+    color:#1e3a8a;
+}
+
+.page-header p{
+    color:#475569;
 }

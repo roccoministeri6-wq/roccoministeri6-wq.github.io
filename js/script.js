@@ -100,30 +100,24 @@ if(form){
     });
 
 }
-const newsElement = document.getElementById("tech-fact");
+const factElement = document.getElementById("tech-fact");
 
-if(newsElement){
+if(factElement){
 
-fetch("https://hacker-news.firebaseio.com/v0/topstories.json")
-
-.then(response => response.json())
-
-.then(ids => fetch(
-`https://hacker-news.firebaseio.com/v0/item/${ids[0]}.json`
-))
+fetch("https://uselessfacts.jsph.pl/api/v2/facts/random?language=en")
 
 .then(response => response.json())
 
-.then(article => {
+.then(data => {
 
-    newsElement.innerText = article.title;
+    factElement.innerText = data.text;
 
 })
 
 .catch(() => {
 
-    newsElement.innerText =
-    "Impossibile caricare la notizia del giorno.";
+    factElement.innerText =
+    "Curiosità non disponibile al momento.";
 
 });
 

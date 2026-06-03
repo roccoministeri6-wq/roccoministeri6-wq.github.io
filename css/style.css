@@ -278,36 +278,3 @@ font-size:1rem;
 textarea{
 height:150px;
 }
-
-.page-header{
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:center;
-
-    align-items:center;
-
-    text-align:center;
-
-    min-height:250px;
-
-    padding:60px 20px;
-
-    background:#f5f7fa;
-
-}
-.page-header h1{
-
-    color:#1e3a8a;
-
-    font-size:3rem;
-
-    margin-bottom:15px;
-
-}
-
-.page-header p{
-    color:#475569;
-}

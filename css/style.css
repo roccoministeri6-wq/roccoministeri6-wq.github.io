@@ -331,3 +331,37 @@ footer p{
     margin:0;
 
 }
+.benefits{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.benefits h2{
+    color:#1e3a8a;
+    margin-bottom:40px;
+}
+
+.benefits-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.benefit-card{
+    background:white;
+    width:250px;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 8px 24px rgba(15,23,42,0.08);
+    transition:all 0.3s ease;
+}
+
+.benefit-card:hover{
+    transform:translateY(-6px);
+}
+
+.benefit-card h3{
+    color:#1e3a8a;
+    margin-bottom:10px;
+}

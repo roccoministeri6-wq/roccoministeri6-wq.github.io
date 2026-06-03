@@ -456,3 +456,14 @@ footer p{
     margin-bottom:20px;
     text-align:center;
 }
+.dashboard-chart p{
+
+    text-align:center;
+
+    max-width:800px;
+
+    margin:0 auto 25px auto;
+
+    color:#64748b;
+
+}

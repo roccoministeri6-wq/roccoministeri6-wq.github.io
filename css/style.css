@@ -285,8 +285,10 @@ textarea{
 height:150px;
 }
 .trends-header{
+    height:auto;
+    min-height:auto;
     text-align:center;
-    padding:40px 20px 20px;
+    padding:40px 20px;
     background:#f5f7fa;
 }
 

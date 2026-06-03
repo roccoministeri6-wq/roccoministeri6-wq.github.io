@@ -100,7 +100,17 @@ if(form){
     });
 
 }
-fetch("https://uselessfacts.jsph.pl/api/v2/facts/random?language=en")
+fetch("https://hacker-news.firebaseio.com/v0/topstories.json")
+
+.then(response => response.json())
+
+.then(stories => {
+
+    return fetch(
+        `https://hacker-news.firebaseio.com/v0/item/${stories[0]}.json`
+    );
+
+})
 
 .then(response => response.json())
 
@@ -110,7 +120,7 @@ fetch("https://uselessfacts.jsph.pl/api/v2/facts/random?language=en")
 
     if(factElement){
 
-        factElement.innerText = data.text;
+        factElement.innerText = data.title;
 
     }
 
@@ -123,7 +133,7 @@ fetch("https://uselessfacts.jsph.pl/api/v2/facts/random?language=en")
     if(factElement){
 
         factElement.innerText =
-        "Curiosità non disponibile al momento.";
+        "Notizia non disponibile al momento.";
 
     }
 

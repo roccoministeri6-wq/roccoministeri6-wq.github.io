@@ -467,3 +467,38 @@ footer p{
     color:#64748b;
 
 }
+.contact-info{
+
+    text-align:center;
+
+    padding:60px 20px;
+
+}
+
+.contact-info h2{
+
+    color:#1e3a8a;
+
+    margin-bottom:30px;
+
+}
+
+.contact-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+    flex-wrap:wrap;
+
+}
+
+.contact-links p{
+
+    color:#64748b;
+
+    font-weight:600;
+
+}

@@ -7,7 +7,7 @@
 body{
 margin:0;
 font-family: Arial, sans-serif;
-background:#f5f7fa;
+background:#F8F4F5;
 color:#1f2937;
 }
 
@@ -257,7 +257,7 @@ transform:translateY(-6px);
 
 .stat-card h2{
 font-size:2.5rem;
-color:#2563eb;
+color:#8B1E3F;
 }
 
 .contact-form{
@@ -310,7 +310,7 @@ height:150px;
 
 footer{
 
-    background:#0a2540;
+    background:#4A1022;
 
     color:white;
 

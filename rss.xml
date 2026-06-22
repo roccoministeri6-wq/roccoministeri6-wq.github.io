@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Rocco Ministeri Portfolio</title>
+    <link>https://roccoministeri6-wq.github.io/</link>
+    <description>Aggiornamenti del portfolio personale di Rocco Ministeri</description>
+    <language>it-it</language>
+
+    <item>
+      <title>Aggiornamento Portfolio Online</title>
+      <description>Pubblicata la prima versione del portfolio personale.</description>
+      <link>https://roccoministeri6-wq.github.io/</link>
+      <pubDate>Sun, 22 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>
